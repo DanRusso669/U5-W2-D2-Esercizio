@@ -10,7 +10,7 @@ public class Author {
     private String DOB;
     private String avatar;
 
-    public Author(String name, String surname, String email, String DOB, String avatar) {
+    public Author(String name, String surname, String email, String DOB) {
         Random rand = new Random();
         this.id = rand.nextInt(1, 10000);
         this.name = name;
